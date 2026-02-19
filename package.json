@@ -1,0 +1,16 @@
+{
+  "name": "omnitoolz-ai-agents",
+  "version": "1.0.0",
+  "description": "Full stack AI Agent platform using Cloudflare Workers and Firebase",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "npx serve public",
+    "deploy:worker": "cd worker && npx wrangler deploy"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "serve": "^14.0.0"
+  }
+}
