@@ -7,7 +7,7 @@
     "start": "npx serve public",
     "deploy:worker": "cd worker && npx wrangler deploy"
   },
-  "author": "Your Name",
+  "author": "Sujit Chowdhury",
   "license": "MIT",
   "devDependencies": {
     "wrangler": "^3.0.0",
